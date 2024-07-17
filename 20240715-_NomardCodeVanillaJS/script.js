@@ -1,13 +1,6 @@
-const a = 4;
-const b = 2;
-let userName = "preisi";
+const amIgenius = false; // like a lie. defined.
+const amIEmpty = null; // nothing, not empty. defined. indecate value is none.
+const amIFind = undefined; // non exitent. 
+let something; // undefined. variables not have a value.
 
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log('welcom! ' + userName);
-
-userName = "presitidigitateur"
-
-console.log("your new name is "+ userName);
+console.log(something);
