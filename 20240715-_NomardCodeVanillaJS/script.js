@@ -1,6 +1,12 @@
-const amIgenius = false; // like a lie. defined.
-const amIEmpty = null; // nothing, not empty. defined. indecate value is none.
-const amIFind = undefined; // non exitent. 
-let something; // undefined. variables not have a value.
+// Array : to organizing the valeu
+const dayOfWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sunz']
+wow = [1 , 5, 'ho', "yeah", true, null, undefined, dayOfWeek]
 
-console.log(something);
+console.log(wow);
+
+//indexing
+console.log(dayOfWeek[6]);
+
+// add one more
+dayOfWeek.push('holy');
+console.log(dayOfWeek)
