@@ -1,12 +1,16 @@
-// Array : to organizing the valeu
-const dayOfWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sunz']
-wow = [1 , 5, 'ho', "yeah", true, null, undefined, dayOfWeek]
+// Objects
+const me = {
+    nickname : "presiti",
+    gender : null,
+    likeCoffe : false,
+    fatigue : 74
+};
 
-console.log(wow);
+console.log(me);
 
-//indexing
-console.log(dayOfWeek[6]);
+// me = "hi";           //error
+me.likeCoffe = true;    //possible
+console.log(me.likeCoffe);
 
-// add one more
-dayOfWeek.push('holy');
-console.log(dayOfWeek)
+me.strong = "weak";
+console.log(me);
