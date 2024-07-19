@@ -14,3 +14,12 @@ console.log(me.likeCoffe);
 
 me.strong = "weak";
 console.log(me);
+
+
+// homework
+const calculator = {
+    add : function(a, b){return a + b},
+    minus: function(a, b){return a - b}
+    divde: function(a, b){return a / b}
+    powerof: function(a, b){return a * b}
+}
