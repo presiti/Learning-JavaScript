@@ -19,7 +19,12 @@ console.log(me);
 // homework
 const calculator = {
     add : function(a, b){return a + b},
-    minus: function(a, b){return a - b}
-    divde: function(a, b){return a / b}
+    minus: function(a, b){return a - b},
+    divde: function(a, b){return a / b},
     powerof: function(a, b){return a * b}
-}
+};
+
+console.log(calculator.add(2,4));
+console.log(calculator.minus(2,4));
+console.log(calculator.divde(2,4));
+console.log(calculator.powerof(2,4));
