@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a Number</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <form id="GuessNumber" method="post">
+        <h3>
+            Generate a number between 0 and 
+            <input type="number" id="max" required>
+        </h3>
+        <h4>
+            Guess the number: 
+            <input type="number" id="guess" required> 
+            <button type="submit">play!</button>
+        </h4>
+        <h4>
+            <p class="hidden">You chose: <span id="human"></span>, the Machine chose: <span id="machine"></span>.</p>
+            <p class="hidden result">You <span id="answer"></span>!</p>
+        </h4>
+    </form> 
+    <script src="./script.js"></script>
+</body>
+</html>
